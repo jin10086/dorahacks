@@ -1,0 +1,11 @@
+gensim
+flask
+jieba
+pyecharts
+pygal
+charts
+selenium
+js2xml
+parsel
+MyQR
+Pillow

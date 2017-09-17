@@ -1,0 +1,27 @@
+<html>
+<head>
+	<title>支付宝用户画像</title>
+</head>
+
+<body>
+<div id="trend" align='center'>
+	<h2>消费趋势</h2>
+	<embed width=70% type="image/svg+xml" src=" {{ chart|safe }}" />
+</div>
+
+<div id="consumption" align='center'>
+	<h2>总消费</h2>
+	<embed width=50% type="image/svg+xml" src= "{{ pie|safe }}" />
+</div>
+
+<div id="rank" align='center'>
+	<h2>网购消费排行</h2>
+	<embed width=50% type="image/svg+xml" src= "{{ rank|safe }}" />
+</div>
+
+<div align="center">
+    <a href="/construct">购物消费构成</a>
+</div>
+</body>
+
+</html>
